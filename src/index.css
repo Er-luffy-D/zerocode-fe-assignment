@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Light mode colors */
+:root {
+  --background: 255 255 255;
+  --foreground: 23 23 23; 
+  --card: 255 255 255;
+  --card-foreground: 23 23 23; 
+  --muted: 245 245 245;
+  --muted-foreground: 82 82 82; 
+  --border: 229 229 229;
+}
+
+/* Dark mode colors */
+.dark {
+  --background: 10 10 10;
+  --foreground: 245 245 245;
+  --card: 20 20 20;
+  --card-foreground: 245 245 245;
+  --muted: 38 38 38;
+  --muted-foreground: 180 180 180; 
+  --border: 38 38 38;
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.bg-background {
+  background-color: rgb(var(--background));
+}
+.bg-card {
+  background-color: rgb(var(--card));
+}
+.text-foreground {
+  color: rgb(var(--foreground));
+}
+.text-muted-foreground {
+  color: rgb(var(--muted-foreground));
+}
+.border-border {
+  border-color: rgb(var(--border));
+}
+
+.dark .text-muted-foreground {
+  color: rgb(180 180 180);
+}
+
+input, textarea {
+  color: rgb(var(--foreground)) !important;
+}
+
+.bg-muted {
+  background-color: rgb(var(--muted));
+}
