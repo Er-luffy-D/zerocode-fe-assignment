@@ -9,7 +9,7 @@ import { Sun, Moon } from "lucide-react";
 
 function App() {
 	const { token, logout } = useAuth();
-	const { theme, toggleTheme, isDark } = useTheme();
+	const { toggleTheme, isDark } = useTheme();
 	const [isLoading, setIsLoading] = useState(true);
 
 	useEffect(() => {

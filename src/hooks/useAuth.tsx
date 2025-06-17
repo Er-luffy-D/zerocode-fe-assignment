@@ -25,6 +25,7 @@ export function useAuth() {
 
 		const payload = {
 			email,
+			password,
 			exp: Date.now() + 1000 * 60 * 60 * 24, // 24 hours
 		};
 
