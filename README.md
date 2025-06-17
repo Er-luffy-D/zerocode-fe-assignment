@@ -67,3 +67,8 @@ src/
 ```
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/8ed4700f-93df-4f7a-b76e-be371dc40149)
+
+![image](https://github.com/user-attachments/assets/e2f640bb-8319-4626-af52-36bb60222f58)
+
+
